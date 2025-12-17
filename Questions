@@ -1,0 +1,8 @@
+🔹① Problem	: Revising the Select Query I
+	
+	Task: Retrieve all columns for American cities from the CITY table where the population is greater than 100,000. The CountryCode for America is USA.
+
+	Solution 
+		SELECT *  FROM CITY  
+		WHERE COUNTRYCODE = 'USA'  
+		AND POPULATION > 100000;
